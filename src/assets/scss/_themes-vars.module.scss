@@ -1,0 +1,194 @@
+// paper & background
+$paper: #ffffff;
+
+// primary
+$primaryLight: #ceecd2;
+$primaryMain: #0496FF;
+$primaryDark: #46beff;
+$primary200: #61c46e;
+$primary800: #17481e;
+
+// secondary
+$secondaryLight: #0496FF;
+$secondaryMain: #46beff;
+$secondaryDark: #fff;
+$secondary200: #f57b54;
+$secondary800: #612410;
+
+// tertiary
+$tertiaryLight: #d8d3f3;
+$tertiaryMain: #624fd1;
+$tertiaryDark: #4e3fa7;
+$tertiary200: #8172da;
+$tertiary800: #272054;
+
+// success Colors
+$successLight: #cae6de;
+$success200: #55af94;
+$successMain: #2a9b79;
+$successDark: #227c61;
+
+// error
+$errorLight: #ffbfc3;
+$errorMain: #ff000d;
+$errorDark: #e5000c;
+
+// orange
+$orangeLight: #ffe7bf;
+$orangeMain: #ff9f00;
+$orangeDark: #cc7f00;
+
+// warning
+$warningLight: #feebca;
+$warningMain: #ffb020;
+$warningDark: #ca8e22;
+
+
+// info
+$infoLight: #808AE0;
+$infoMain: #0215C2;
+$infoDark: #02119b;
+
+// grey
+$grey50: #f8fafc;
+$grey100: #eef2f6;
+$grey200: #e3e8ef;
+$grey300: #cdd5df;
+$grey500: #697586;
+$grey600: #4b5565;
+$grey700: #364152;
+$grey900: #121926;
+
+// ==============================|| DARK THEME VARIANTS ||============================== //
+
+// paper & background
+$darkBackground: #1a223f; // level 3
+$darkPaper: #111936; // level 4
+
+// dark 800 & 900
+$darkLevel1: #29314f; // level 1
+$darkLevel2: #212946; // level 2
+
+// primary dark
+$darkPrimaryLight: #ceecd2;
+$darkPrimaryMain: #3ab54a;
+$darkPrimaryDark: #2e913b;
+$darkPrimary200: #61c46e;
+$darkPrimary800: #17481e;
+
+// secondary dark
+$darkSecondaryLight: #fcd6c9;
+$darkSecondaryMain: #f25a29;
+$darkSecondaryDark: #c24821;
+$darkSecondary200: #f57b54;
+$darkSecondary800: #612410;
+
+$darkTertiaryLight: #d8d3f3;
+$darkTertiaryMain: #624fd1;
+$darkTertiaryDark: #4e3fa7;
+$darkTertiary200: #8172da;
+$darkTertiary800: #272054;
+
+// text variants
+$darkTextTitle: #d7dcec;
+$darkTextPrimary: #bdc8f0;
+$darkTextSecondary: #8492c4;
+
+// ==============================|| JAVASCRIPT ||============================== //
+
+:export {
+    // paper & background
+    paper: $paper;
+
+    // primary
+    primaryLight: $primaryLight;
+    primary200: $primary200;
+    primaryMain: $primaryMain;
+    primaryDark: $primaryDark;
+    primary800: $primary800;
+
+    // secondary
+    secondaryLight: $secondaryLight;
+    secondary200: $secondary200;
+    secondaryMain: $secondaryMain;
+    secondaryDark: $secondaryDark;
+    secondary800: $secondary800;
+
+    tertiaryLight: $tertiaryLight;
+    tertiary200: $tertiary200;
+    tertiaryMain: $tertiaryMain;
+    tertiaryDark: $tertiaryDark;
+    tertiary800: $tertiary800;
+
+    // success
+    successLight: $successLight;
+    success200: $success200;
+    successMain: $successMain;
+    successDark: $successDark;
+
+    // error
+    errorLight: $errorLight;
+    errorMain: $errorMain;
+    errorDark: $errorDark;
+
+    // orange
+    orangeLight: $orangeLight;
+    orangeMain: $orangeMain;
+    orangeDark: $orangeDark;
+
+    // warning
+    warningLight: $warningLight;
+    warningMain: $warningMain;
+    warningDark: $warningDark;
+
+    // info
+    infoLight: $infoLight;
+    infoMain: $infoMain;
+    infoDark: $infoDark;
+
+    // grey
+    grey50: $grey50;
+    grey100: $grey100;
+    grey200: $grey200;
+    grey300: $grey300;
+    grey500: $grey500;
+    grey600: $grey600;
+    grey700: $grey700;
+    grey900: $grey900;
+
+    // ==============================|| DARK THEME VARIANTS ||============================== //
+
+    // paper & background
+    darkPaper: $darkPaper;
+    darkBackground: $darkBackground;
+
+    // dark 800 & 900
+    darkLevel1: $darkLevel1;
+    darkLevel2: $darkLevel2;
+
+    // text variants
+    darkTextTitle: $darkTextTitle;
+    darkTextPrimary: $darkTextPrimary;
+    darkTextSecondary: $darkTextSecondary;
+
+    // primary dark
+    darkPrimaryLight: $darkPrimaryLight;
+    darkPrimaryMain: $darkPrimaryMain;
+    darkPrimaryDark: $darkPrimaryDark;
+    darkPrimary200: $darkPrimary200;
+    darkPrimary800: $darkPrimary800;
+
+    // secondary dark
+    darkSecondaryLight: $darkSecondaryLight;
+    darkSecondaryMain: $darkSecondaryMain;
+    darkSecondaryDark: $darkSecondaryDark;
+    darkSecondary200: $darkSecondary200;
+    darkSecondary800: $darkSecondary800;
+
+    // tertiary dark
+    darkTertiaryLight: $darkTertiaryLight;
+    darkTertiaryMain: $darkTertiaryMain;
+    darkTertiaryDark: $darkTertiaryDark;
+    darkTertiary200: $darkTertiary200;
+    darkTertiary800: $darkTertiary800;
+}

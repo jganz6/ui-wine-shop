@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+// routing
+import Routes from 'routes';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// project imports
+import Locales from 'ui-component/Locales';
+import NavigationScroll from 'layout/NavigationScroll';
+import RTLLayout from 'ui-component/RTLLayout';
+import Snackbar from 'ui-component/extended/Snackbar';
+
+import ThemeCustomization from 'themes';
+
+// auth provider
+import { AuthProvider } from 'contexts/AuthContext';
+
+// ==============================|| APP ||============================== //
+
+const App = () => (
+    <ThemeCustomization>
+        <RTLLayout>
+            <Locales>
+                <NavigationScroll>
+                    <AuthProvider>
+                        <>
+                            <Routes />
+                            <Snackbar />
+                        </>
+                    </AuthProvider>
+                </NavigationScroll>
+            </Locales>
+        </RTLLayout>
+    </ThemeCustomization>
+);
 
 export default App;
