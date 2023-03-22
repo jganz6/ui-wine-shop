@@ -105,10 +105,10 @@ const Header = ({ handleDrawerToggle }) => {
                     borderLeftColor: theme.palette.primary.dark
                 }}
             >
-                <Button variant="outlined" sx={{ width: '100px', marginRight: '5px' }}>
+                <Button variant="outlined" sx={{ width: '100px', marginRight: '5px' }} href="/register">
                     Sign Up
                 </Button>
-                <Button variant="contained" sx={{ width: '100px' }}>
+                <Button variant="contained" sx={{ width: '100px' }} href="/login">
                     Log In
                 </Button>
             </Box>

@@ -16,18 +16,14 @@ const Login = () => {
 
     return (
         <AuthWrapper1>
-            <Grid
-                container
-                justifyContent={{ xs: 'center', sm: 'space-between' }}
-                sx={{ minHeight: '100vh', backgroundImage: `url(${BgLogin})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}
-            >
+            <Grid container justifyContent={{ xs: 'center', sm: 'space-between' }} sx={{ minHeight: '80vh', backgroundColor: '#fff' }}>
                 {/* left side */}
                 <Grid item xs={12} sm={6} md={6} display="flex" alignItems="center" justifyContent={{ xs: 'center', sm: 'flex-start' }}>
                     <Box
                         sx={{
                             width: { xs: '60%', sm: '95%', md: '85%', lg: '80%' },
                             borderRadius: { xs: '5px', sm: '0 5px 5px 0' },
-                            background: 'linear-gradient(135.88deg, #F25A29 16.45%, #FF9F00 127.09%)',
+                            background: 'linear-gradient(135.88deg, #0496FF 16.45%, #46beff 127.09%)',
                             boxShadow: '0px 0px 5px 0px rgba(0,0,0,0.25)'
                         }}
                     >
@@ -54,9 +50,9 @@ const Login = () => {
                                             fontSize: { xs: '0.8rem', sm: '1.6rem', md: '1.9rem', lg: '2.3rem' }
                                         }}
                                     >
-                                        Welcome to Barookah Kitchen
+                                        Welcome to Oting Wine Shop
                                     </Typography>
-                                    <Typography
+                                    {/* <Typography
                                         variant="caption"
                                         sx={{
                                             color: theme.palette.text.hint,
@@ -64,7 +60,7 @@ const Login = () => {
                                         }}
                                     >
                                         Deliver Food Instantly
-                                    </Typography>
+                                    </Typography> */}
                                 </Box>
                             </Stack>
                             <Box>
@@ -75,7 +71,7 @@ const Login = () => {
                                         fontSize: { xs: '0.7rem', sm: '0.8rem', md: '0.9rem', lg: '1.2rem' }
                                     }}
                                 >
-                                    &copy; 2022. Meeroket
+                                    &copy; 2022. Oting Wine Shop
                                 </Typography>
                             </Box>
                         </Stack>
@@ -95,16 +91,15 @@ const Login = () => {
                 >
                     <Stack spacing={4} alignItems={{ xs: 'center', sm: 'flex-start' }}>
                         <Typography
-                            variant="h2"
+                            variant="h1"
                             sx={{
                                 color: theme.palette.text.light,
                                 textAlign: { xs: 'center', sm: 'left' },
-                                fontSize: { xs: '1.1rem', sm: '1.1rem', md: '1.4rem', lg: '1.9rem' },
-                                textShadow: '0px 0px 5px #000'
+                                fontSize: { xs: '1.1rem', sm: '1.1rem', md: '1.4rem', lg: '1.9rem' }
+                                // textShadow: '0px 0px 5px #000'
                             }}
                         >
-                            <span style={{ color: theme.palette.secondary.main }}>Login</span> to your account to manage all the services
-                            and explore our tools
+                            <span style={{ color: theme.palette.primary.main }}>Login</span>
                         </Typography>
                         <Box sx={{ width: '100%' }}>
                             <AuthLogin />

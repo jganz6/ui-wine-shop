@@ -189,13 +189,13 @@ const AuthLogin = () => {
                                             variant="contained"
                                             sx={{
                                                 width: 'fit-content',
-                                                backgroundColor: theme.palette.tertiary.main,
+                                                backgroundColor: theme.palette.primary.main,
                                                 color: theme.palette.text.light,
                                                 fontSize: { sm: '0.7rem', md: '0.75rem', lg: '0.9rem' },
                                                 boxShadow: '0px 0px 5px 0px rgba(0,0,0,0.25)',
                                                 borderRadius: '10px',
                                                 '&:hover': {
-                                                    backgroundColor: theme.palette.tertiary.dark
+                                                    backgroundColor: theme.palette.primary[200]
                                                 }
                                             }}
                                         >

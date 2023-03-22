@@ -2,7 +2,7 @@ import { lazy } from 'react';
 
 // project imports
 import GuestGuard from 'utils/route-guard/GuestGuard';
-import MinimalLayout from 'layout/MinimalLayout';
+import MainLayout from 'layout/MainLayout';
 import NavMotion from 'layout/NavMotion';
 import Loadable from 'ui-component/Loadable';
 
@@ -15,6 +15,7 @@ const AuthForgotPassword = Loadable(lazy(() => import('views/pages/authenticatio
 const AuthActivation = Loadable(lazy(() => import('views/pages/authentication/Activation')));
 const AuthResetPassword = Loadable(lazy(() => import('views/pages/authentication/ResetPassword')));
 const AuthSuccess = Loadable(lazy(() => import('views/pages/authentication/SuccessPage')));
+const Home = Loadable(lazy(() => import('views/pages/home')));
 
 // ==============================|| AUTH ROUTING ||============================== //
 
@@ -23,14 +24,14 @@ const AuthenticationRoutes = {
     element: (
         <NavMotion>
             <GuestGuard>
-                <MinimalLayout />
+                <MainLayout />
             </GuestGuard>
         </NavMotion>
     ),
     children: [
         {
             path: '/',
-            element: <MaintenanceComingSoon />
+            element: <Home />
         },
         {
             path: '/login',

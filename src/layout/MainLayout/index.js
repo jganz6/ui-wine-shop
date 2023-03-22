@@ -74,7 +74,7 @@ const MainLayout = () => {
             </AppBar>
 
             {/* main content */}
-            <Main theme={theme} sx={{ border: '2px solid red' }}>
+            <Main theme={theme}>
                 <Container maxWidth="lg">
                     <Outlet />
                 </Container>
