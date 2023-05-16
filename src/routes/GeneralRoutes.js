@@ -7,6 +7,8 @@ import Loadable from 'ui-component/Loadable';
 
 const Home = Loadable(lazy(() => import('views/pages/home')));
 
+const ShoppingCart = Loadable(lazy(() => import('views/pages/shoppingcart')));
+
 // ==============================|| MAIN ROUTING ||============================== //
 
 const GeneralRoutes = {
@@ -16,6 +18,10 @@ const GeneralRoutes = {
         {
             path: '',
             element: <Home />
+        },
+        {
+            path: 'shopping-cart',
+            element: <ShoppingCart />
         }
     ]
 };
